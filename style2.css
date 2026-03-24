@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.skills-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.skills-table thead th {
+    background-color: #5e17eb;
+    color: white;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.skills-table tbody td {
+    padding: 12px 20px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+}
+
+.skills-table tbody td.category {
+    background-color: #7a33ff !important;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 35%;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.status-high {
+    color: #1a7a43 !important; 
+    background-color: #e6f9ee !important;
+    font-weight: bold !important;
+}
+
+.status-low {
+    color: #a31d1d !important;
+    background-color: #ffebeb !important;
+    font-weight: bold !important;
+}
+
+.skills-table tbody tr:nth-child(even) td:not(.category) {
+    background-color: #f9f8ff;
+}
+
+.skills-table tr:last-child td {
+    border-bottom: none;
+}
+
+.skills-table tr:last-child td.category {
+    border-bottom: none;
+}
