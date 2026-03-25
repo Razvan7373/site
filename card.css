@@ -1,4 +1,4 @@
-/* 1. Element Selectors */
+
 body {
     background: linear-gradient(135deg, #7a33ff, #5e17eb);
     display: flex;
@@ -14,7 +14,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-/* 2. ID Selectors */
+
 #main-container {
     background-color: white;
     width: 500px;
